@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuites tests="8" disabled="6" errors="0" failures="0" time="9.7992243">
+      <testsuite name="Tests Suite" package="C:\Users\819834\go\src\nexgen-api\tests" tests="0" disabled="0" skipped="0" errors="0" failures="0" time="0.0923392" timestamp="2023-03-05T21:19:29">
+          <properties>
+              <property name="SuiteSucceeded" value="true"></property>
+              <property name="SuiteHasProgrammaticFocus" value="false"></property>
+              <property name="SpecialSuiteFailureReason" value=""></property>
+              <property name="SuiteLabels" value="[]"></property>
+              <property name="RandomSeed" value="1678031364"></property>
+              <property name="RandomizeAllSpecs" value="false"></property>
+              <property name="LabelFilter" value=""></property>
+              <property name="FocusStrings" value=""></property>
+              <property name="SkipStrings" value=""></property>
+              <property name="FocusFiles" value=""></property>
+              <property name="SkipFiles" value=""></property>
+              <property name="FailOnPending" value="false"></property>
+              <property name="FailFast" value="false"></property>
+              <property name="FlakeAttempts" value="0"></property>
+              <property name="DryRun" value="false"></property>
+              <property name="ParallelTotal" value="1"></property>
+              <property name="OutputInterceptorMode" value=""></property>
+          </properties>
+      </testsuite>
+      <testsuite name="Components Suite" package="C:\Users\819834\go\src\nexgen-api\tests\components" tests="7" disabled="6" skipped="0" errors="0" failures="0" time="2.5388102999999997" timestamp="2023-03-05T21:19:37">
+          <properties>
+              <property name="SuiteSucceeded" value="true"></property>
+              <property name="SuiteHasProgrammaticFocus" value="false"></property>
+              <property name="SpecialSuiteFailureReason" value=""></property>
+              <property name="SuiteLabels" value="[]"></property>
+              <property name="RandomSeed" value="1678031364"></property>
+              <property name="RandomizeAllSpecs" value="false"></property>
+              <property name="LabelFilter" value=""></property>
+              <property name="FocusStrings" value=""></property>
+              <property name="SkipStrings" value=""></property>
+              <property name="FocusFiles" value=""></property>
+              <property name="SkipFiles" value=""></property>
+              <property name="FailOnPending" value="false"></property>
+              <property name="FailFast" value="false"></property>
+              <property name="FlakeAttempts" value="0"></property>
+              <property name="DryRun" value="false"></property>
+              <property name="ParallelTotal" value="1"></property>
+              <property name="OutputInterceptorMode" value=""></property>
+          </properties>
+          <testcase name="[It] Get Request Get Request - Status" classname="Components Suite" status="passed" time="2.5236673">
+              <system-err>&gt; Enter [It] Get Request - Status  - C:/Users/819834/go/src/nexgen-api/tests/components/get_products_test.go:35 @ 03/05/23 21:19:37.151&#xA;&lt; Exit [It] Get Request - Status  - C:/Users/819834/go/src/nexgen-api/tests/components/get_products_test.go:35 @ 03/05/23 21:19:39.673 (2.523s)&#xA;</system-err>
+          </testcase>
+          <testcase name="[It] Post Request Post Request - Register a new client" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Create Cart Post Request" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Get Request - https://reqres.in/ Get Request - Users List" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Post Request - https://reqres.in/ Post Request - Create a New User" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Post Request Post Request - Register a new client" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Delete Request Delete Request - Delete a User" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+      </testsuite>
+      <testsuite name="Integration Suite" package="C:\Users\819834\go\src\nexgen-api\tests\integration" tests="1" disabled="0" skipped="0" errors="0" failures="0" time="7.1680748" timestamp="2023-03-05T21:19:40">
+          <properties>
+              <property name="SuiteSucceeded" value="true"></property>
+              <property name="SuiteHasProgrammaticFocus" value="false"></property>
+              <property name="SpecialSuiteFailureReason" value=""></property>
+              <property name="SuiteLabels" value="[]"></property>
+              <property name="RandomSeed" value="1678031364"></property>
+              <property name="RandomizeAllSpecs" value="false"></property>
+              <property name="LabelFilter" value=""></property>
+              <property name="FocusStrings" value=""></property>
+              <property name="SkipStrings" value=""></property>
+              <property name="FocusFiles" value=""></property>
+              <property name="SkipFiles" value=""></property>
+              <property name="FailOnPending" value="false"></property>
+              <property name="FailFast" value="false"></property>
+              <property name="FlakeAttempts" value="0"></property>
+              <property name="DryRun" value="false"></property>
+              <property name="ParallelTotal" value="1"></property>
+              <property name="OutputInterceptorMode" value=""></property>
+          </properties>
+          <testcase name="[It] Create a Cart , add Item to cart , get added item from cart Post" classname="Integration Suite" status="passed" time="7.1607895">
+              <system-err>&gt; Enter [It] Post  - C:/Users/819834/go/src/nexgen-api/tests/integration/cart_post_get_test.go:18 @ 03/05/23 21:19:40.576&#xA;&lt; Exit [It] Post  - C:/Users/819834/go/src/nexgen-api/tests/integration/cart_post_get_test.go:18 @ 03/05/23 21:19:47.736 (7.161s)&#xA;</system-err>
+          </testcase>
+      </testsuite>
+  </testsuites>

@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>report.xml</title>
+    <style type="text/css">
+        body {
+    background-color: white;
+    padding-bottom: 20em;
+    margin: 0;
+    min-height: 15cm;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #007acc;
+    color: white;
+    padding: 3mm;
+    margin-top: 0;
+    margin-bottom: 1mm;
+}
+
+.footer {
+    font-style: italic;
+    font-size: small;
+    text-align: right;
+    padding: 1em;
+}
+
+.testsuite {
+    padding-bottom: 2em;
+    margin-left: 1em;
+}
+
+.proplist {
+    width: 100%;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+.proplist th {
+    background-color: silver;
+    width: 5em;
+    padding: 2px;
+    padding-right: 1em;
+    text-align: left;
+}
+
+.proplist td {
+    padding: 2px;
+}
+
+.index-table {
+    width: 90%;
+    margin-left: 1em;
+}
+
+.index-table td {
+    vertical-align: top;
+    width: 50%;
+}
+
+.failure-index {
+
+}
+
+.toc {
+    margin-bottom: 2em;
+    font-family: monospace;
+}
+
+.stdio, pre {
+    min-height: 1em;
+    background-color: #1e1e1e;
+    color: silver;
+    padding: 0.5em;
+}
+.tdpre {
+    background-color: #1e1e1e;
+}
+
+.test {
+    margin-left: 0.5cm;
+}
+
+.outcome {
+    border-left: 1em;
+    padding: 2px;
+}
+
+.outcome-failed {
+    border-left: 1em solid lightcoral;
+}
+
+.outcome-passed {
+    border-left: 1em solid lightgreen;
+}
+
+.outcome-skipped {
+    border-left: 1em solid lightyellow;
+}
+
+.stats-table {
+}
+
+.stats-table td {
+    min-width: 4em;
+    text-align: right;
+}
+
+.stats-table .failed {
+    background-color: lightcoral;
+}
+
+.stats-table .passed {
+    background-color: lightgreen;
+}
+
+.matrix-table {
+    table-layout: fixed;
+    border-spacing: 0;
+    width: available;
+    margin-left: 1em;
+}
+
+.matrix-table td {
+    vertical-align: center;
+}
+
+.matrix-table td:last-child {
+    width: 0;
+}
+
+.matrix-table tr:hover {
+    background-color: yellow;
+}
+
+.matrix-axis-name {
+    white-space: nowrap;
+    padding-right: 0.5em;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    text-align: right;
+}
+
+.matrix-axis-line {
+    border-left: 1px solid black;
+    width: 0.5em;
+}
+
+.matrix-classname {
+    text-align: left;
+    width: 100%;
+    border-top: 2px solid grey;
+    border-bottom: 1px solid silver;
+}
+
+.matrix-casename {
+    text-align: left;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 1em;
+    border-bottom: 1px solid silver;
+}
+
+.matrix-result {
+    display: block;
+    width: 1em;
+    text-align: center;
+    padding: 1mm;
+    margin: 0;
+}
+
+.matrix-result-combined {
+    white-space: nowrap;
+    padding-right: 0.2em;
+    text-align: right;
+}
+
+.matrix-result-failed {
+    background-color: lightcoral;
+}
+
+.matrix-result-passed {
+    background-color: lightgreen;
+}
+
+.matrix-result-skipped {
+    background-color: lightyellow;
+}
+
+.matrix-even {
+    background-color: lightgray;
+}
+    </style>
+</head>
+<body>
+    
+<h1>
+    Test Report : report.xml
+</h1>
+<a id="toc"></a>
+<table class="index-table">
+    <tr>
+        <td>
+            <ul class="toc">
+            
+                
+                <li>Components Suite
+                <ul>
+                    
+                    <li><a href="#0b39a695-61ee-4dce-8416-aaa12b6d71af">[BeforeSuite]</a></li>
+                    
+                    <li><a href="#c1b366ac-8438-4f8e-b2f8-8d85622366d7">[It] DB  Connect DB and run select Query [Smoke]</a></li>
+                    
+                    <li><a href="#3755d619-2f3b-4652-9f19-6095029471fe">[It] Get Request Get Request - Status 200 [Regression]</a></li>
+                    
+                    <li><a href="#2edbb189-7b29-4151-9ee4-055b114ce848">[It] EC2StartStopFunctionhandler aa [Smoke]</a></li>
+                    
+                    <li><a href="#fe090476-c28c-4b40-b9a1-a0489c8a1872">[It] Add order with and without authentication Post Request - Create a New order with authentication 201 [Smoke]</a></li>
+                    
+                    <li><a href="#789ad83a-1370-4682-be26-861f8f2bdb06">[It] Add order with and without authentication Post Request - Pass wrong authentication token 401 [Smoke]</a></li>
+                    
+                    <li><a href="#8a46b0c0-7102-427c-9bd9-d9d40bfcf51e">[It] Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API [Smoke]</a></li>
+                    
+                    <li><a href="#9db49d9f-0180-4586-8b75-88443c23440d">[It] Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API  [Smoke]</a></li>
+                    
+                    <li><a href="#cedf48f0-5be9-489c-8078-29097a46c84a">[It] Post Request - Cloud to On-Prem Can send files to different S3 buckets [Smoke]</a></li>
+                    
+                    <li><a href="#6d3dc33e-7eaa-4c21-93fc-d848202b68ca">[It] Post Request Post Request - Register a new client 201</a></li>
+                    
+                    <li><a href="#296d6982-1629-4b54-9326-90bbbfb72554">[AfterSuite]</a></li>
+                    
+                </ul>
+                </li>
+                
+            
+            </ul>
+        </td>
+        <td class="failure-index">
+            <ul class="toc">
+            
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li><a href="#8a46b0c0-7102-427c-9bd9-d9d40bfcf51e">[F] Components Suite : [It] Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API [Smoke]</a></li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                
+            
+            </ul>
+        </td>
+    </tr>
+</table>
+
+
+    <div class="testsuite">
+        <h2>Test Suite: Components Suite</h2>
+        <a id="2c0c395f-ca84-411e-a61c-f4e7a9d51a31"></a>
+        
+        <span>Package: C:\Users\819834\go\src\bd-connect-api\apitesting\tests\components</span>
+        
+        
+        <h3>Suite Properties</h3>
+        <table class="proplist">
+            
+            <tr>
+                <th>SuiteSucceeded</th><td>false</td>
+            </tr>
+            
+            <tr>
+                <th>SuiteHasProgrammaticFocus</th><td>false</td>
+            </tr>
+            
+            <tr>
+                <th>SpecialSuiteFailureReason</th><td></td>
+            </tr>
+            
+            <tr>
+                <th>SuiteLabels</th><td>[]</td>
+            </tr>
+            
+            <tr>
+                <th>RandomSeed</th><td>1680014772</td>
+            </tr>
+            
+            <tr>
+                <th>RandomizeAllSpecs</th><td>false</td>
+            </tr>
+            
+            <tr>
+                <th>LabelFilter</th><td>Integration,Smoke</td>
+            </tr>
+            
+            <tr>
+                <th>FocusStrings</th><td></td>
+            </tr>
+            
+            <tr>
+                <th>SkipStrings</th><td></td>
+            </tr>
+            
+            <tr>
+                <th>FocusFiles</th><td></td>
+            </tr>
+            
+            <tr>
+                <th>SkipFiles</th><td></td>
+            </tr>
+            
+            <tr>
+                <th>FailOnPending</th><td>false</td>
+            </tr>
+            
+            <tr>
+                <th>FailFast</th><td>false</td>
+            </tr>
+            
+            <tr>
+                <th>FlakeAttempts</th><td>0</td>
+            </tr>
+            
+            <tr>
+                <th>DryRun</th><td>false</td>
+            </tr>
+            
+            <tr>
+                <th>ParallelTotal</th><td>1</td>
+            </tr>
+            
+            <tr>
+                <th>OutputInterceptorMode</th><td></td>
+            </tr>
+            
+        </table>
+        
+        <h3>Results</h3>
+        <table class="proplist">
+            <tr>
+                <th>Duration</th><td>14.434 sec</td>
+            </tr>
+            <tr>
+                <th>Tests</th><td>11</td>
+            </tr>
+            <tr>
+                <th>Failures</th><td>1</td>
+            </tr>
+        </table>
+
+        <div class="testclasses">
+            <h3>Tests</h3>
+            
+            <div class="testclass">
+                <h4>Components Suite</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="0b39a695-61ee-4dce-8416-aaa12b6d71af"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[BeforeSuite]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.002 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+
+                        
+                        
+                        
+                        <div class="stderr"><i>Stderr</i><br>
+                            <pre>&gt; Enter [BeforeSuite] TOP-LEVEL - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/components_suite_test.go:21 @ 03/28/23 20:16:19.06
+&lt; Exit [BeforeSuite] TOP-LEVEL - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/components_suite_test.go:21 @ 03/28/23 20:16:19.062 (2ms)
+</pre>
+                        </div>
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-skipped">
+                        <a id="c1b366ac-8438-4f8e-b2f8-8d85622366d7"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[It] DB  Connect DB and run select Query [Smoke]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Skipped</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                            <tr><th>Skipped</th><td>pending</td></tr>
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+                        <pre>skipped</pre>
+                        
+
+                        
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-skipped">
+                        <a id="3755d619-2f3b-4652-9f19-6095029471fe"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[It] Get Request Get Request - Status 200 [Regression]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Skipped</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                            <tr><th>Skipped</th><td>pending</td></tr>
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+                        <pre>skipped</pre>
+                        
+
+                        
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-skipped">
+                        <a id="2edbb189-7b29-4151-9ee4-055b114ce848"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[It] EC2StartStopFunctionhandler aa [Smoke]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Skipped</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                            <tr><th>Skipped</th><td>pending</td></tr>
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+                        <pre>skipped</pre>
+                        
+
+                        
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-skipped">
+                        <a id="fe090476-c28c-4b40-b9a1-a0489c8a1872"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[It] Add order with and without authentication Post Request - Create a New order with authentication 201 [Smoke]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Skipped</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                            <tr><th>Skipped</th><td>pending</td></tr>
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+                        <pre>skipped</pre>
+                        
+
+                        
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-skipped">
+                        <a id="789ad83a-1370-4682-be26-861f8f2bdb06"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[It] Add order with and without authentication Post Request - Pass wrong authentication token 401 [Smoke]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Skipped</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                            <tr><th>Skipped</th><td>pending</td></tr>
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+                        <pre>skipped</pre>
+                        
+
+                        
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-failed">
+                        <a id="8a46b0c0-7102-427c-9bd9-d9d40bfcf51e"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[It] Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API [Smoke]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Failed</td></tr>
+                            <tr><th>Duration:</th><td>2.269 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>Status code does not match
+Expected
+    &lt;int&gt;: 200
+to equal
+    &lt;int&gt;: 208</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        <pre>[FAILED] Status code does not match
+Expected
+    &lt;int&gt;: 200
+to equal
+    &lt;int&gt;: 208
+In [It] at: C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:56 @ 03/28/23 20:16:21.333
+</pre>
+                        
+                        
+
+                        
+                        
+                        
+                        <div class="stderr"><i>Stderr</i><br>
+                            <pre>&gt; Enter [BeforeEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:19 @ 03/28/23 20:16:19.063
+&lt; Exit [BeforeEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:19 @ 03/28/23 20:16:19.065 (2ms)
+&gt; Enter [It] Can send a file to S3 bucket using load balancer API - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:40 @ 03/28/23 20:16:19.065
+[FAILED] Status code does not match
+Expected
+    &lt;int&gt;: 200
+to equal
+    &lt;int&gt;: 208
+In [It] at: C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:56 @ 03/28/23 20:16:21.333
+&lt; Exit [It] Can send a file to S3 bucket using load balancer API - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:40 @ 03/28/23 20:16:21.333 (2.267s)
+&gt; Enter [AfterEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:24 @ 03/28/23 20:16:21.333
+&lt; Exit [AfterEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:24 @ 03/28/23 20:16:21.333 (0s)
+</pre>
+                        </div>
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="9db49d9f-0180-4586-8b75-88443c23440d"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[It] Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API  [Smoke]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>12.121 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+
+                        
+                        
+                        
+                        <div class="stderr"><i>Stderr</i><br>
+                            <pre>&gt; Enter [BeforeEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:19 @ 03/28/23 20:16:21.365
+&lt; Exit [BeforeEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:19 @ 03/28/23 20:16:21.365 (0s)
+&gt; Enter [It] Can send multiple pdf files to S3 bucket using load balancer API  - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:62 @ 03/28/23 20:16:21.365
+&lt; Exit [It] Can send multiple pdf files to S3 bucket using load balancer API  - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:62 @ 03/28/23 20:16:33.486 (12.121s)
+&gt; Enter [AfterEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:24 @ 03/28/23 20:16:33.486
+&lt; Exit [AfterEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:24 @ 03/28/23 20:16:33.486 (0s)
+</pre>
+                        </div>
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-skipped">
+                        <a id="cedf48f0-5be9-489c-8078-29097a46c84a"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[It] Post Request - Cloud to On-Prem Can send files to different S3 buckets [Smoke]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Skipped</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                            <tr><th>Skipped</th><td>pending</td></tr>
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+                        <pre>skipped</pre>
+                        
+
+                        
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-skipped">
+                        <a id="6d3dc33e-7eaa-4c21-93fc-d848202b68ca"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[It] Post Request Post Request - Register a new client 201</b></td></tr>
+                            <tr><th>Outcome:</th><td>Skipped</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                            <tr><th>Skipped</th><td>pending</td></tr>
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+                        <pre>skipped</pre>
+                        
+
+                        
+                        
+                        
+                    </div>
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="296d6982-1629-4b54-9326-90bbbfb72554"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>[AfterSuite]</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.0 sec</td></tr>
+                        
+                            <tr><th>Failed</th><td>None</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        <pre>None</pre>
+                        
+                        
+
+                        
+                        
+                        
+                        <div class="stderr"><i>Stderr</i><br>
+                            <pre>&gt; Enter [AfterSuite] TOP-LEVEL - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/components_suite_test.go:28 @ 03/28/23 20:16:33.49
+&lt; Exit [AfterSuite] TOP-LEVEL - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/components_suite_test.go:28 @ 03/28/23 20:16:33.49 (0s)
+</pre>
+                        </div>
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+
+<p class="footer">
+    Generated by junit2html
+</p>
+</body>
+</html>

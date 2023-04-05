@@ -1,0 +1,648 @@
+2023/03/20 13:37:21 ----Test Started---- 
+2023/03/20 13:37:21 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/20 13:37:25 Response Deserialized successfully
+2023/03/20 13:37:25 Test Failed
+2023/03/20 13:37:25 C:/Users/819834/go/src/nexgen-api/tests/components/cloudonprem_test.go:39
+2023/03/20 13:37:25 File name does not match
+Expected
+    <string>: young-haze.pdf
+to equal
+    <string>: young-haze.pdfa
+2023/03/20 13:37:25 ----Test Ended----
+2023/03/20 13:37:25 
+2023/03/20 13:37:25 ----Test Started---- 
+2023/03/20 13:37:25 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/20 13:37:28 Response Deserialized successfully
+2023/03/20 13:37:30 Response Deserialized successfully
+2023/03/20 13:37:32 Response Deserialized successfully
+2023/03/20 13:37:35 Response Deserialized successfully
+2023/03/20 13:37:37 Response Deserialized successfully
+2023/03/20 13:37:39 Response Deserialized successfully
+2023/03/20 13:37:39 Test Passed
+2023/03/20 13:37:39 ----Test Ended----
+2023/03/20 13:37:39 
+2023/03/20 14:06:25 ----Test Started---- 
+2023/03/20 14:06:25 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/20 14:06:29 Post Request successful
+2023/03/20 14:06:29 Response Deserialized successfully
+2023/03/20 14:06:29 Test Failed
+2023/03/20 14:06:29 C:/Users/819834/go/src/nexgen-api/tests/components/cloudonprem_test.go:39
+2023/03/20 14:06:29 File name does not match
+Expected
+    <string>: broken-butterfly.pdf
+to equal
+    <string>: broken-butterfly.pdfa
+2023/03/20 14:06:29 ----Test Ended----
+2023/03/20 14:06:29 
+2023/03/20 14:06:29 ----Test Started---- 
+2023/03/20 14:06:29 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/20 14:06:31 Post Request successful
+2023/03/20 14:06:31 Response Deserialized successfully
+2023/03/20 14:06:33 Post Request successful
+2023/03/20 14:06:33 Response Deserialized successfully
+2023/03/20 14:06:36 Post Request successful
+2023/03/20 14:06:36 Response Deserialized successfully
+2023/03/20 14:06:38 Post Request successful
+2023/03/20 14:06:38 Response Deserialized successfully
+2023/03/20 14:06:40 Post Request successful
+2023/03/20 14:06:40 Response Deserialized successfully
+2023/03/20 14:06:43 Post Request successful
+2023/03/20 14:06:43 Response Deserialized successfully
+2023/03/20 14:06:43 Test Passed
+2023/03/20 14:06:43 ----Test Ended----
+2023/03/20 14:06:43 
+2023/03/20 16:12:52 ----Test Started---- 
+2023/03/20 16:12:52 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/20 16:12:56 Post Request successful
+2023/03/20 16:12:56 Response Deserialized successfully
+2023/03/20 16:12:56 Test Failed
+2023/03/20 16:12:56 C:/Users/819834/go/src/nexgen-api/tests/components/cloudonprem_test.go:39
+2023/03/20 16:12:56 File name does not match
+Expected
+    <string>: little-cloud.pdf
+to equal
+    <string>: little-cloud.pdfa
+2023/03/20 16:12:56 ----Test Ended----
+2023/03/20 16:12:56 
+2023/03/20 16:12:56 ----Test Started---- 
+2023/03/20 16:12:56 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/20 16:12:58 Post Request successful
+2023/03/20 16:12:58 Response Deserialized successfully
+2023/03/20 16:13:00 Post Request successful
+2023/03/20 16:13:00 Response Deserialized successfully
+2023/03/20 16:13:03 Post Request successful
+2023/03/20 16:13:03 Response Deserialized successfully
+2023/03/20 16:13:05 Post Request successful
+2023/03/20 16:13:05 Response Deserialized successfully
+2023/03/20 16:13:07 Post Request successful
+2023/03/20 16:13:07 Response Deserialized successfully
+2023/03/20 16:13:10 Post Request successful
+2023/03/20 16:13:10 Response Deserialized successfully
+2023/03/20 16:13:10 Test Passed
+2023/03/20 16:13:10 ----Test Ended----
+2023/03/20 16:13:10 
+2023/03/20 19:19:14 ----Test Started---- 
+2023/03/20 19:19:14 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/20 19:19:18 Post Request successful
+2023/03/20 19:19:18 Response Deserialized successfully
+2023/03/20 19:19:18 Test Failed
+2023/03/20 19:19:18 C:/Users/819834/go/src/nexgen-api/tests/components/cloudonprem_test.go:39
+2023/03/20 19:19:18 File name does not match
+Expected
+    <string>: misty-sound.pdf
+to equal
+    <string>: misty-sound.pdfa
+2023/03/20 19:19:18 ----Test Ended----
+2023/03/20 19:19:18 
+2023/03/20 19:19:18 ----Test Started---- 
+2023/03/20 19:19:18 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/20 19:19:21 Post Request successful
+2023/03/20 19:19:21 Response Deserialized successfully
+2023/03/20 19:19:23 Post Request successful
+2023/03/20 19:19:23 Response Deserialized successfully
+2023/03/20 19:19:26 Post Request successful
+2023/03/20 19:19:26 Response Deserialized successfully
+2023/03/20 19:19:28 Post Request successful
+2023/03/20 19:19:28 Response Deserialized successfully
+2023/03/20 19:19:30 Post Request successful
+2023/03/20 19:19:30 Response Deserialized successfully
+2023/03/20 19:19:33 Post Request successful
+2023/03/20 19:19:33 Response Deserialized successfully
+2023/03/20 19:19:33 Test Passed
+2023/03/20 19:19:33 ----Test Ended----
+2023/03/20 19:19:33 
+2023/03/20 21:56:16 ----Test Started---- 
+2023/03/20 21:56:16 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/20 21:56:20 Post Request successful
+2023/03/20 21:56:20 Response Deserialized successfully
+2023/03/20 21:56:20 Test Failed
+2023/03/20 21:56:20 C:/Users/819834/go/src/nexgen-api/tests/components/cloudonprem_test.go:39
+2023/03/20 21:56:20 File name does not match
+Expected
+    <string>: withered-leaf.pdf
+to equal
+    <string>: withered-leaf.pdfa
+2023/03/20 21:56:20 ----Test Ended----
+2023/03/20 21:56:20 
+2023/03/20 21:56:20 ----Test Started---- 
+2023/03/20 21:56:20 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/20 21:56:22 Post Request successful
+2023/03/20 21:56:22 Response Deserialized successfully
+2023/03/20 21:56:25 Post Request successful
+2023/03/20 21:56:25 Response Deserialized successfully
+2023/03/20 21:56:27 Post Request successful
+2023/03/20 21:56:27 Response Deserialized successfully
+2023/03/20 21:56:30 Post Request successful
+2023/03/20 21:56:30 Response Deserialized successfully
+2023/03/20 21:56:32 Post Request successful
+2023/03/20 21:56:32 Response Deserialized successfully
+2023/03/20 21:56:35 Post Request successful
+2023/03/20 21:56:35 Response Deserialized successfully
+2023/03/20 21:56:35 Test Passed
+2023/03/20 21:56:35 ----Test Ended----
+2023/03/20 21:56:35 
+2023/03/21 10:04:47 ----Test Started---- 
+2023/03/21 10:04:47 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/21 10:04:50 Post Request successful
+2023/03/21 10:04:50 Response Deserialized successfully
+2023/03/21 10:04:50 Test Failed
+2023/03/21 10:04:50 C:/Users/819834/go/src/apitesting/tests/components/cloudonprem_test.go:39
+2023/03/21 10:04:50 File name does not match
+Expected
+    <string>: dawn-bush.pdf
+to equal
+    <string>: dawn-bush.pdfa
+2023/03/21 10:04:50 ----Test Ended----
+2023/03/21 10:04:50 
+2023/03/21 10:04:50 ----Test Started---- 
+2023/03/21 10:04:50 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/21 10:04:53 Post Request successful
+2023/03/21 10:04:53 Response Deserialized successfully
+2023/03/21 10:04:55 Post Request successful
+2023/03/21 10:04:55 Response Deserialized successfully
+2023/03/21 10:04:57 Post Request successful
+2023/03/21 10:04:57 Response Deserialized successfully
+2023/03/21 10:04:59 Post Request successful
+2023/03/21 10:04:59 Response Deserialized successfully
+2023/03/21 10:05:01 Post Request successful
+2023/03/21 10:05:01 Response Deserialized successfully
+2023/03/21 10:05:03 Post Request successful
+2023/03/21 10:05:03 Response Deserialized successfully
+2023/03/21 10:05:03 Test Passed
+2023/03/21 10:05:03 ----Test Ended----
+2023/03/21 10:05:03 
+2023/03/21 10:15:29 ----Test Started---- 
+2023/03/21 10:15:29 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/21 10:15:31 Post Request successful
+2023/03/21 10:15:31 Response Deserialized successfully
+2023/03/21 10:15:31 Test Failed
+2023/03/21 10:15:31 C:/Users/819834/go/src/apitesting/tests/components/cloudonprem_test.go:39
+2023/03/21 10:15:31 File name does not match
+Expected
+    <string>: silent-fog.pdf
+to equal
+    <string>: silent-fog.pdfa
+2023/03/21 10:15:31 ----Test Ended----
+2023/03/21 10:15:31 
+2023/03/21 10:15:31 ----Test Started---- 
+2023/03/21 10:15:31 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/21 10:15:33 Post Request successful
+2023/03/21 10:15:33 Response Deserialized successfully
+2023/03/21 10:15:35 Post Request successful
+2023/03/21 10:15:35 Response Deserialized successfully
+2023/03/21 10:15:39 Post Request successful
+2023/03/21 10:15:39 Response Deserialized successfully
+2023/03/21 10:15:41 Post Request successful
+2023/03/21 10:15:41 Response Deserialized successfully
+2023/03/21 10:15:43 Post Request successful
+2023/03/21 10:15:43 Response Deserialized successfully
+2023/03/21 10:15:45 Post Request successful
+2023/03/21 10:15:45 Response Deserialized successfully
+2023/03/21 10:15:45 Test Passed
+2023/03/21 10:15:45 ----Test Ended----
+2023/03/21 10:15:45 
+2023/03/21 16:22:38 ----Test Started---- 
+2023/03/21 16:22:38 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/21 16:22:41 Post Request successful
+2023/03/21 16:22:41 Response Deserialized successfully
+2023/03/21 16:22:41 Test Failed
+2023/03/21 16:22:41 C:/Users/819834/go/src/apitesting/tests/components/cloudonprem_test.go:39
+2023/03/21 16:22:41 File name does not match
+Expected
+    <string>: withered-fog.pdf
+to equal
+    <string>: withered-fog.pdfa
+2023/03/21 16:22:41 ----Test Ended----
+2023/03/21 16:22:41 
+2023/03/21 16:22:42 ----Test Started---- 
+2023/03/21 16:22:42 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/21 16:22:44 Post Request successful
+2023/03/21 16:22:44 Response Deserialized successfully
+2023/03/21 16:22:46 Post Request successful
+2023/03/21 16:22:46 Response Deserialized successfully
+2023/03/21 16:22:48 Post Request successful
+2023/03/21 16:22:48 Response Deserialized successfully
+2023/03/21 16:22:51 Post Request successful
+2023/03/21 16:22:51 Response Deserialized successfully
+2023/03/21 16:22:53 Post Request successful
+2023/03/21 16:22:53 Response Deserialized successfully
+2023/03/21 16:22:55 Post Request successful
+2023/03/21 16:22:55 Response Deserialized successfully
+2023/03/21 16:22:55 Test Passed
+2023/03/21 16:22:55 ----Test Ended----
+2023/03/21 16:22:55 
+2023/03/21 19:08:49 ----Test Started---- 
+2023/03/21 19:08:49 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/21 19:08:52 Post Request successful
+2023/03/21 19:08:52 Response Deserialized successfully
+2023/03/21 19:08:52 Test Failed
+2023/03/21 19:08:52 C:/Users/819834/go/src/apitesting/tests/components/cloudonprem_test.go:39
+2023/03/21 19:08:52 File name does not match
+Expected
+    <string>: silent-fire.pdf
+to equal
+    <string>: silent-fire.pdfa
+2023/03/21 19:08:52 ----Test Ended----
+2023/03/21 19:08:52 
+2023/03/21 19:08:52 ----Test Started---- 
+2023/03/21 19:08:52 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/21 19:08:54 Post Request successful
+2023/03/21 19:08:54 Response Deserialized successfully
+2023/03/21 19:08:57 Post Request successful
+2023/03/21 19:08:57 Response Deserialized successfully
+2023/03/21 19:08:59 Post Request successful
+2023/03/21 19:08:59 Response Deserialized successfully
+2023/03/21 19:09:01 Post Request successful
+2023/03/21 19:09:01 Response Deserialized successfully
+2023/03/21 19:09:03 Post Request successful
+2023/03/21 19:09:03 Response Deserialized successfully
+2023/03/21 19:09:05 Post Request successful
+2023/03/21 19:09:05 Response Deserialized successfully
+2023/03/21 19:09:05 Test Passed
+2023/03/21 19:09:05 ----Test Ended----
+2023/03/21 19:09:05 
+2023/03/21 20:39:12 ----Test Started---- 
+2023/03/21 20:39:12 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/21 20:39:15 Post Request successful
+2023/03/21 20:39:15 Response Deserialized successfully
+2023/03/21 20:39:15 Test Failed
+2023/03/21 20:39:15 C:/Users/819834/go/src/apitesting/tests/components/cloudonprem_test.go:39
+2023/03/21 20:39:15 File name does not match
+Expected
+    <string>: shy-grass.pdf
+to equal
+    <string>: shy-grass.pdfa
+2023/03/21 20:39:15 ----Test Ended----
+2023/03/21 20:39:15 
+2023/03/21 20:39:15 ----Test Started---- 
+2023/03/21 20:39:15 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/21 20:39:18 Post Request successful
+2023/03/21 20:39:18 Response Deserialized successfully
+2023/03/21 20:39:20 Post Request successful
+2023/03/21 20:39:20 Response Deserialized successfully
+2023/03/21 20:39:22 Post Request successful
+2023/03/21 20:39:22 Response Deserialized successfully
+2023/03/21 20:39:24 Post Request successful
+2023/03/21 20:39:24 Response Deserialized successfully
+2023/03/21 20:39:26 Post Request successful
+2023/03/21 20:39:26 Response Deserialized successfully
+2023/03/21 20:39:28 Post Request successful
+2023/03/21 20:39:28 Response Deserialized successfully
+2023/03/21 20:39:28 Test Passed
+2023/03/21 20:39:28 ----Test Ended----
+2023/03/21 20:39:28 
+2023/03/22 11:39:31 ----Test Started---- 
+2023/03/22 11:39:31 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/22 11:39:37 Test Failed
+2023/03/22 11:39:37 C:/Users/819834/go/src/apitesting/BD.ReportingHub.NG.Api/tests/components/cloudonprem_test.go:39
+2023/03/22 11:39:37 Interrupted by User
+2023/03/22 11:39:37 ----Test Ended----
+2023/03/22 11:39:37 
+2023/03/22 11:39:37 Post Request successful
+2023/03/22 11:39:37 Response Deserialized successfully
+2023/03/23 16:23:14 ----Test Started---- 
+2023/03/23 16:23:14 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/23 16:23:17 Post Request successful
+2023/03/23 16:23:17 Response Deserialized successfully
+2023/03/23 16:23:17 Test Failed
+2023/03/23 16:23:17 C:/Users/819834/go/src/BD.ReportingHub.Ng.Api/apitesting/tests/components/cloudonprem_test.go:40
+2023/03/23 16:23:17 File name does not match
+Expected
+    <string>: autumn-butterfly.pdf
+to equal
+    <string>: autumn-butterfly.pdfa
+2023/03/23 16:23:17 ----Test Ended----
+2023/03/23 16:23:17 
+2023/03/23 16:23:17 ending
+2023/03/23 16:23:17 ----Test Started---- 
+2023/03/23 16:23:17 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/23 16:23:19 Post Request successful
+2023/03/23 16:23:19 Response Deserialized successfully
+2023/03/23 16:23:21 Post Request successful
+2023/03/23 16:23:21 Response Deserialized successfully
+2023/03/23 16:23:23 Post Request successful
+2023/03/23 16:23:23 Response Deserialized successfully
+2023/03/23 16:23:25 Post Request successful
+2023/03/23 16:23:25 Response Deserialized successfully
+2023/03/23 16:23:27 Post Request successful
+2023/03/23 16:23:27 Response Deserialized successfully
+2023/03/23 16:23:30 Post Request successful
+2023/03/23 16:23:30 Response Deserialized successfully
+2023/03/23 16:23:30 Test Passed
+2023/03/23 16:23:30 ----Test Ended----
+2023/03/23 16:23:30 
+2023/03/23 16:23:30 ending
+2023/03/23 16:26:59 ----Test Started---- 
+2023/03/23 16:26:59 Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/23 16:27:01 Post Request successful
+2023/03/23 16:27:01 Response Deserialized successfully
+2023/03/23 16:27:01 Test Failed
+2023/03/23 16:27:01 C:/Users/819834/go/src/BD.ReportingHub.Ng.Api/apitesting/tests/components/cloudonprem_test.go:40
+2023/03/23 16:27:01 File name does not match
+Expected
+    <string>: damp-sea.pdf
+to equal
+    <string>: damp-sea.pdfa
+2023/03/23 16:27:01 ----Test Ended----
+2023/03/23 16:27:01 
+2023/03/23 16:27:01 ending
+2023/03/23 16:27:01 ----Test Started---- 
+2023/03/23 16:27:01 Running test : Post Request - Cloud to On-Prem Can send files to different S3 buckets
+2023/03/23 16:27:03 Post Request successful
+2023/03/23 16:27:03 Response Deserialized successfully
+2023/03/23 16:27:05 Post Request successful
+2023/03/23 16:27:06 Response Deserialized successfully
+2023/03/23 16:27:08 Post Request successful
+2023/03/23 16:27:08 Response Deserialized successfully
+2023/03/23 16:27:10 Post Request successful
+2023/03/23 16:27:10 Response Deserialized successfully
+2023/03/23 16:27:12 Post Request successful
+2023/03/23 16:27:12 Response Deserialized successfully
+2023/03/23 16:27:14 Post Request successful
+2023/03/23 16:27:14 Response Deserialized successfully
+2023/03/23 16:27:14 Test Passed
+2023/03/23 16:27:14 ----Test Ended----
+2023/03/23 16:27:14 
+2023/03/23 16:27:14 ending
+2023/03/28 17:57:36.410936 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 17:57:36.413936 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 17:57:44.829972 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 17:57:44.829972 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:18:46.999187 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 18:18:46.999707 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 18:19:14.289629 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:19:14.293220 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:24:46.879056 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 18:24:46.880055 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 18:24:49.226583 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:24:49.227385 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:24:49.227549 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:29: Test Failed
+2023/03/28 18:24:49.227619 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:30: C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:40
+2023/03/28 18:24:49.227630 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:31: File name does not match
+Expected
+    <string>: withered-sound.pdf.pdf
+to equal
+    <string>: withered-sound.pdf
+2023/03/28 18:24:49.227630 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 18:24:49.227630 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 18:24:49.227630 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 18:24:49.269331 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 18:24:49.269331 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 18:24:51.474460 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:24:51.474460 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:24:53.497864 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:24:53.498482 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:24:55.708368 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:24:55.708368 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:24:57.871895 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:24:57.872454 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:25:00.051221 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:25:00.051221 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:25:02.236972 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:25:02.236972 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:25:02.238762 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 18:25:02.238762 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 18:25:02.238762 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 18:25:02.238762 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 18:26:55.878206 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 18:26:55.879302 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 18:26:58.204011 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:26:58.212818 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:26:58.212984 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 18:26:58.212984 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 18:26:58.212984 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 18:26:58.212984 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 18:26:58.215026 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 18:26:58.215026 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 18:27:00.443595 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:27:00.451184 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:27:02.509009 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:27:02.522663 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:27:04.576366 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:27:04.576366 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:27:06.735979 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:27:06.736162 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:27:08.848850 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:27:08.849337 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:27:10.854815 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:27:10.868455 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:27:10.868886 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 18:27:10.869003 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 18:27:10.869036 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 18:27:10.869036 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 18:29:55.005301 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 18:29:55.007419 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 18:29:57.336579 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:29:57.337973 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:29:57.337973 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 18:29:57.337973 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 18:29:57.337973 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 18:29:57.337973 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 18:29:57.339139 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 18:29:57.339139 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 18:29:59.500609 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:29:59.500609 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:30:01.757571 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:30:01.757773 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:30:03.938271 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:30:03.938297 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:30:06.012118 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:30:06.012169 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:30:08.128381 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:30:08.132319 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:30:10.279683 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:30:10.284497 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:30:10.284661 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 18:30:10.284661 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 18:30:10.284661 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 18:30:10.284798 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 19:50:50.608529 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 19:50:50.613529 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 19:50:53.424379 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:50:53.424379 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:50:53.424379 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 19:50:53.424379 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 19:50:53.424379 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 19:50:53.424379 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 19:50:53.424905 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 19:50:53.424905 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 19:50:55.110868 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:50:55.119551 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:50:56.830056 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:50:56.830056 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:50:58.519642 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:50:58.527699 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:51:00.224716 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:51:00.226993 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:51:01.966756 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:51:01.971673 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:51:03.672144 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:51:03.682234 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:51:03.682756 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 19:51:03.683030 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 19:51:03.683030 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 19:51:03.683113 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 19:58:19.690734 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 19:58:19.697472 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 19:58:22.451476 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:58:22.451743 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:58:22.451743 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 19:58:22.451743 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 19:58:22.451743 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 19:58:22.451743 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 19:58:22.452310 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 19:58:22.452821 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 19:58:24.133493 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:58:24.133493 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:58:25.834790 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:58:25.834790 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:58:27.496391 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:58:27.496391 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:58:29.169568 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:58:29.170487 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:58:30.902686 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:58:30.902686 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:58:32.561484 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:58:32.561484 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:58:32.561484 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 19:58:32.561484 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 19:58:32.561484 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 19:58:32.561484 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:03:05.107972 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:03:05.109048 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 20:03:07.909161 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:03:07.909161 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:03:07.909161 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 20:03:07.909161 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:03:07.909729 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:03:07.909729 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:03:07.911759 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:03:07.911848 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 20:03:09.950797 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:03:09.951458 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:03:11.971739 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:03:11.982512 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:03:14.040247 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:03:14.042895 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:03:16.031296 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:03:16.041716 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:03:18.095290 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:03:18.095290 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:03:20.121033 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:03:20.134274 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:03:20.134965 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 20:03:20.134965 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:03:20.134965 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:03:20.135124 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:06:25.186056 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:06:25.187055 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 20:06:27.395937 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:06:27.396514 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:06:27.396514 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 20:06:27.396514 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:06:27.396514 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:06:27.396514 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:06:27.397607 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:06:27.397607 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 20:06:29.432637 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:06:29.432637 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:06:31.499199 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:06:31.499199 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:06:33.580461 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:06:33.580461 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:06:35.688048 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:06:35.688979 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:06:37.743786 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:06:37.744101 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:06:39.811704 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:06:39.811973 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:06:39.811973 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 20:06:39.811973 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:06:39.811973 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:06:39.811973 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:08:07.048828 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:08:07.049882 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 20:08:09.345848 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:08:09.349908 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:08:09.349908 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 20:08:09.349908 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:08:09.349908 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:08:09.349991 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:08:09.350670 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:08:09.350670 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 20:08:11.289910 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:08:11.289910 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:08:11.298618 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:29: Test Failed
+2023/03/28 20:08:11.298618 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:30: C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:62
+2023/03/28 20:08:11.298618 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:31: File name does not match
+Expected
+    <string>: aged-glitter.pdf
+to equal
+    <string>: aged-glitter.pdfa
+2023/03/28 20:08:11.298618 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:08:11.298736 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:08:11.298736 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:11:14.560991 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:11:14.562044 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 20:11:16.771048 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:11:16.774589 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:11:16.774589 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:29: Test Failed
+2023/03/28 20:11:16.774589 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:30: C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:40
+2023/03/28 20:11:16.774589 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:31: Status code does not match
+Expected
+    <int>: 200
+to equal
+    <int>: 208
+2023/03/28 20:11:16.774589 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:11:16.774589 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:11:16.774589 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:11:16.806010 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:11:16.806010 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 20:11:18.861335 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:11:18.861335 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:11:20.896332 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:11:20.896332 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:11:22.965522 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:11:22.965522 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:11:25.080887 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:11:25.080887 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:11:27.040257 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:11:27.040257 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:11:29.077287 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:11:29.077287 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:11:29.077287 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 20:11:29.077287 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:11:29.077287 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:11:29.077287 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:16:19.063969 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:16:19.065575 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API
+2023/03/28 20:16:21.333026 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:16:21.333026 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:16:21.333026 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:29: Test Failed
+2023/03/28 20:16:21.333026 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:30: C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:40
+2023/03/28 20:16:21.333026 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:31: Status code does not match
+Expected
+    <int>: 200
+to equal
+    <int>: 208
+2023/03/28 20:16:21.333026 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:16:21.333026 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:16:21.333026 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending
+2023/03/28 20:16:21.365404 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:20: ----Test Started---- 
+2023/03/28 20:16:21.365404 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:21: Running test : Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API 
+2023/03/28 20:16:23.385767 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:16:23.389461 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:16:25.393460 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:16:25.393537 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:16:27.401497 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:16:27.406200 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:16:29.460031 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:16:29.461090 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:16:31.531334 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:16:31.531484 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:16:33.486172 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:16:33.486511 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:16:33.486511 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:27: Test Passed
+2023/03/28 20:16:33.486511 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:35: ----Test Ended----
+2023/03/28 20:16:33.486511 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:36: 
+2023/03/28 20:16:33.486511 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:37: ending

@@ -1,0 +1,603 @@
+2023/03/20 13:37:42 ----Test Started-- 
+2023/03/20 13:37:42 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/20 13:37:45 Response Deserialized successfully
+2023/03/20 13:37:48 Response Deserialized successfully
+2023/03/20 13:37:48 Test Passed
+2023/03/20 13:37:48 ----Test Ended----
+2023/03/20 13:37:48 
+2023/03/20 13:37:48 ----Test Started-- 
+2023/03/20 13:37:48 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/20 13:37:50 Response Deserialized successfully
+2023/03/20 13:37:52 Response Deserialized successfully
+2023/03/20 13:37:52 Test Passed
+2023/03/20 13:37:52 ----Test Ended----
+2023/03/20 13:37:52 
+2023/03/20 13:37:52 ----Test Started-- 
+2023/03/20 13:37:52 Running test : Post Request Integration: Cloud to On-Prem Can send different files format to S3 bucket and validate the stored files
+2023/03/20 13:37:53 Response deserialized successfully for filename : Demo.csv
+2023/03/20 13:37:55 Download response deserialized successfully for filename : Demo.csv
+2023/03/20 13:37:57 Response deserialized successfully for filename : Demo.pdf
+2023/03/20 13:38:00 Download response deserialized successfully for filename : Demo.pdf
+2023/03/20 13:38:02 Response deserialized successfully for filename : Hello.pdf
+2023/03/20 13:38:05 Download response deserialized successfully for filename : Hello.pdf
+2023/03/20 13:38:07 Response deserialized successfully for filename : Hello.xlsx
+2023/03/20 13:38:09 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/20 13:38:11 Response deserialized successfully for filename : Test.pdf
+2023/03/20 13:38:14 Download response deserialized successfully for filename : Test.pdf
+2023/03/20 13:38:16 Response deserialized successfully for filename : Testing.docx
+2023/03/20 13:38:18 Download response deserialized successfully for filename : Testing.docx
+2023/03/20 13:38:20 Response deserialized successfully for filename : Testing.pdf
+2023/03/20 13:38:23 Download response deserialized successfully for filename : Testing.pdf
+2023/03/20 13:38:23 Test Passed
+2023/03/20 13:38:23 ----Test Ended----
+2023/03/20 13:38:23 
+2023/03/20 14:06:45 ----Test Started-- 
+2023/03/20 14:06:45 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/20 14:06:48 Post Request successful
+2023/03/20 14:06:48 Response Deserialized successfully
+2023/03/20 14:06:51 Post Request successful
+2023/03/20 14:06:51 Response Deserialized successfully
+2023/03/20 14:06:51 Test Passed
+2023/03/20 14:06:51 ----Test Ended----
+2023/03/20 14:06:51 
+2023/03/20 14:06:51 ----Test Started-- 
+2023/03/20 14:06:51 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/20 14:06:53 Post Request successful
+2023/03/20 14:06:53 Response Deserialized successfully
+2023/03/20 14:06:55 Post Request successful
+2023/03/20 14:06:55 Response Deserialized successfully
+2023/03/20 14:06:55 Test Passed
+2023/03/20 14:06:55 ----Test Ended----
+2023/03/20 14:06:55 
+2023/03/20 14:06:55 ----Test Started-- 
+2023/03/20 14:06:55 Running test : Post Request Integration: Cloud to On-Prem Can send different files format to S3 bucket and validate the stored files
+2023/03/20 14:06:56 Post Request successful
+2023/03/20 14:06:56 Response deserialized successfully for filename : Demo.csv
+2023/03/20 14:06:58 Post Request successful
+2023/03/20 14:06:58 Download response deserialized successfully for filename : Demo.csv
+2023/03/20 14:07:00 Post Request successful
+2023/03/20 14:07:00 Response deserialized successfully for filename : Demo.pdf
+2023/03/20 14:07:03 Post Request successful
+2023/03/20 14:07:03 Download response deserialized successfully for filename : Demo.pdf
+2023/03/20 14:07:05 Post Request successful
+2023/03/20 14:07:05 Response deserialized successfully for filename : Hello.pdf
+2023/03/20 14:07:08 Post Request successful
+2023/03/20 14:07:08 Download response deserialized successfully for filename : Hello.pdf
+2023/03/20 14:07:10 Post Request successful
+2023/03/20 14:07:10 Response deserialized successfully for filename : Hello.xlsx
+2023/03/20 14:07:12 Post Request successful
+2023/03/20 14:07:12 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/20 14:07:14 Post Request successful
+2023/03/20 14:07:14 Response deserialized successfully for filename : Test.pdf
+2023/03/20 14:07:17 Post Request successful
+2023/03/20 14:07:17 Download response deserialized successfully for filename : Test.pdf
+2023/03/20 14:07:18 Post Request successful
+2023/03/20 14:07:18 Response deserialized successfully for filename : Testing.docx
+2023/03/20 14:07:21 Post Request successful
+2023/03/20 14:07:21 Download response deserialized successfully for filename : Testing.docx
+2023/03/20 14:07:23 Post Request successful
+2023/03/20 14:07:23 Response deserialized successfully for filename : Testing.pdf
+2023/03/20 14:07:26 Post Request successful
+2023/03/20 14:07:26 Download response deserialized successfully for filename : Testing.pdf
+2023/03/20 14:07:26 Test Passed
+2023/03/20 14:07:26 ----Test Ended----
+2023/03/20 14:07:26 
+2023/03/20 14:14:48 ----Test Started-- 
+2023/03/20 14:14:48 Running test : Post Request Integration: Cloud to On-Prem Can send different files format to S3 bucket and validate the stored files
+2023/03/20 16:09:56 ----Test Started-- 
+2023/03/20 16:09:56 Running test : Post Request Integration: Cloud to On-Prem Can send different files format to S3 bucket and validate the stored files
+2023/03/20 16:13:16 ----Test Started-- 
+2023/03/20 16:13:16 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/20 16:13:18 Post Request successful
+2023/03/20 16:13:18 Response Deserialized successfully
+2023/03/20 16:13:21 Post Request successful
+2023/03/20 16:13:21 Response Deserialized successfully
+2023/03/20 16:13:21 Test Passed
+2023/03/20 16:13:21 ----Test Ended----
+2023/03/20 16:13:21 
+2023/03/20 16:13:21 ----Test Started-- 
+2023/03/20 16:13:21 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/20 16:13:24 Post Request successful
+2023/03/20 16:13:24 Response Deserialized successfully
+2023/03/20 16:13:25 Post Request successful
+2023/03/20 16:13:25 Response Deserialized successfully
+2023/03/20 16:13:25 Test Passed
+2023/03/20 16:13:25 ----Test Ended----
+2023/03/20 16:13:25 
+2023/03/20 16:13:25 ----Test Started-- 
+2023/03/20 16:13:25 Running test : Post Request Integration: Cloud to On-Prem Can send different files format to S3 bucket and validate the stored files
+2023/03/20 16:13:27 Post Request successful
+2023/03/20 16:13:27 Response deserialized successfully for filename : Demo.csv
+2023/03/20 16:13:28 Post Request successful
+2023/03/20 16:13:28 Download response deserialized successfully for filename : Demo.csv
+2023/03/20 16:13:33 Post Request successful
+2023/03/20 16:13:33 Response deserialized successfully for filename : Demo.pdf
+2023/03/20 16:13:35 Post Request successful
+2023/03/20 16:13:35 Download response deserialized successfully for filename : Demo.pdf
+2023/03/20 16:13:37 Post Request successful
+2023/03/20 16:13:37 Response deserialized successfully for filename : Hello.pdf
+2023/03/20 16:13:40 Post Request successful
+2023/03/20 16:13:40 Download response deserialized successfully for filename : Hello.pdf
+2023/03/20 16:13:42 Post Request successful
+2023/03/20 16:13:42 Response deserialized successfully for filename : Hello.xlsx
+2023/03/20 16:13:43 Post Request successful
+2023/03/20 16:13:43 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/20 16:13:46 Post Request successful
+2023/03/20 16:13:46 Response deserialized successfully for filename : Test.pdf
+2023/03/20 16:13:48 Post Request successful
+2023/03/20 16:13:48 Download response deserialized successfully for filename : Test.pdf
+2023/03/20 16:13:50 Post Request successful
+2023/03/20 16:13:50 Response deserialized successfully for filename : Testing.docx
+2023/03/20 16:13:53 Post Request successful
+2023/03/20 16:13:53 Download response deserialized successfully for filename : Testing.docx
+2023/03/20 16:13:55 Post Request successful
+2023/03/20 16:13:55 Response deserialized successfully for filename : Testing.pdf
+2023/03/20 16:13:58 Post Request successful
+2023/03/20 16:13:58 Download response deserialized successfully for filename : Testing.pdf
+2023/03/20 16:13:58 Test Passed
+2023/03/20 16:13:58 ----Test Ended----
+2023/03/20 16:13:58 
+2023/03/20 19:19:36 ----Test Started-- 
+2023/03/20 19:19:36 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/20 19:19:39 Post Request successful
+2023/03/20 19:19:39 Response Deserialized successfully
+2023/03/20 19:19:41 Post Request successful
+2023/03/20 19:19:41 Response Deserialized successfully
+2023/03/20 19:19:41 Test Passed
+2023/03/20 19:19:41 ----Test Ended----
+2023/03/20 19:19:41 
+2023/03/20 19:19:41 ----Test Started-- 
+2023/03/20 19:19:41 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/20 19:19:44 Post Request successful
+2023/03/20 19:19:44 Response Deserialized successfully
+2023/03/20 19:19:45 Post Request successful
+2023/03/20 19:19:45 Response Deserialized successfully
+2023/03/20 19:19:45 Test Passed
+2023/03/20 19:19:45 ----Test Ended----
+2023/03/20 19:19:45 
+2023/03/20 19:19:45 ----Test Started-- 
+2023/03/20 19:19:45 Running test : Post Request Integration: Cloud to On-Prem Can send different file formats to S3 bucket and download the different format files
+2023/03/20 19:19:47 Post Request successful
+2023/03/20 19:19:47 Response deserialized successfully for filename : Demo.csv
+2023/03/20 19:19:49 Post Request successful
+2023/03/20 19:19:49 Download response deserialized successfully for filename : Demo.csv
+2023/03/20 19:19:51 Post Request successful
+2023/03/20 19:19:51 Response deserialized successfully for filename : Demo.pdf
+2023/03/20 19:19:54 Post Request successful
+2023/03/20 19:19:54 Download response deserialized successfully for filename : Demo.pdf
+2023/03/20 19:19:56 Post Request successful
+2023/03/20 19:19:56 Response deserialized successfully for filename : Hello.pdf
+2023/03/20 19:19:59 Post Request successful
+2023/03/20 19:19:59 Download response deserialized successfully for filename : Hello.pdf
+2023/03/20 19:20:00 Post Request successful
+2023/03/20 19:20:00 Response deserialized successfully for filename : Hello.xlsx
+2023/03/20 19:20:02 Post Request successful
+2023/03/20 19:20:02 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/20 19:20:05 Post Request successful
+2023/03/20 19:20:05 Response deserialized successfully for filename : Test.pdf
+2023/03/20 19:20:07 Post Request successful
+2023/03/20 19:20:07 Download response deserialized successfully for filename : Test.pdf
+2023/03/20 19:20:10 Post Request successful
+2023/03/20 19:20:10 Response deserialized successfully for filename : Testing.docx
+2023/03/20 19:20:12 Post Request successful
+2023/03/20 19:20:12 Download response deserialized successfully for filename : Testing.docx
+2023/03/20 19:20:14 Post Request successful
+2023/03/20 19:20:14 Response deserialized successfully for filename : Testing.pdf
+2023/03/20 19:20:17 Post Request successful
+2023/03/20 19:20:17 Download response deserialized successfully for filename : Testing.pdf
+2023/03/20 19:20:17 Test Passed
+2023/03/20 19:20:17 ----Test Ended----
+2023/03/20 19:20:17 
+2023/03/20 21:56:35 ----Test Started-- 
+2023/03/20 21:56:35 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/20 21:56:38 Post Request successful
+2023/03/20 21:56:38 Response Deserialized successfully
+2023/03/20 21:56:42 Post Request successful
+2023/03/20 21:56:42 Response Deserialized successfully
+2023/03/20 21:56:42 Test Passed
+2023/03/20 21:56:42 ----Test Ended----
+2023/03/20 21:56:42 
+2023/03/20 21:56:42 ----Test Started-- 
+2023/03/20 21:56:42 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/20 21:56:44 Post Request successful
+2023/03/20 21:56:44 Response Deserialized successfully
+2023/03/20 21:56:46 Post Request successful
+2023/03/20 21:56:46 Response Deserialized successfully
+2023/03/20 21:56:46 Test Passed
+2023/03/20 21:56:46 ----Test Ended----
+2023/03/20 21:56:46 
+2023/03/20 21:56:46 ----Test Started-- 
+2023/03/20 21:56:46 Running test : Post Request Integration: Cloud to On-Prem Can send different file formats to S3 bucket and download the different format files
+2023/03/20 21:56:47 Post Request successful
+2023/03/20 21:56:47 Response deserialized successfully for filename : Demo.csv
+2023/03/20 21:56:49 Post Request successful
+2023/03/20 21:56:49 Download response deserialized successfully for filename : Demo.csv
+2023/03/20 21:56:51 Post Request successful
+2023/03/20 21:56:51 Response deserialized successfully for filename : Demo.pdf
+2023/03/20 21:56:54 Post Request successful
+2023/03/20 21:56:54 Download response deserialized successfully for filename : Demo.pdf
+2023/03/20 21:56:56 Post Request successful
+2023/03/20 21:56:56 Response deserialized successfully for filename : Hello.pdf
+2023/03/20 21:56:59 Post Request successful
+2023/03/20 21:56:59 Download response deserialized successfully for filename : Hello.pdf
+2023/03/20 21:57:01 Post Request successful
+2023/03/20 21:57:01 Response deserialized successfully for filename : Hello.xlsx
+2023/03/20 21:57:03 Post Request successful
+2023/03/20 21:57:03 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/20 21:57:05 Post Request successful
+2023/03/20 21:57:05 Response deserialized successfully for filename : Test.pdf
+2023/03/20 21:57:08 Post Request successful
+2023/03/20 21:57:08 Download response deserialized successfully for filename : Test.pdf
+2023/03/20 21:57:10 Post Request successful
+2023/03/20 21:57:10 Response deserialized successfully for filename : Testing.docx
+2023/03/20 21:57:12 Post Request successful
+2023/03/20 21:57:12 Download response deserialized successfully for filename : Testing.docx
+2023/03/20 21:57:15 Post Request successful
+2023/03/20 21:57:15 Response deserialized successfully for filename : Testing.pdf
+2023/03/20 21:57:17 Post Request successful
+2023/03/20 21:57:17 Download response deserialized successfully for filename : Testing.pdf
+2023/03/20 21:57:17 Test Passed
+2023/03/20 21:57:17 ----Test Ended----
+2023/03/20 21:57:17 
+2023/03/21 10:05:06 ----Test Started-- 
+2023/03/21 10:05:06 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/21 10:05:08 Post Request successful
+2023/03/21 10:05:08 Response Deserialized successfully
+2023/03/21 10:05:11 Post Request successful
+2023/03/21 10:05:11 Response Deserialized successfully
+2023/03/21 10:05:11 Test Passed
+2023/03/21 10:05:11 ----Test Ended----
+2023/03/21 10:05:11 
+2023/03/21 10:05:11 ----Test Started-- 
+2023/03/21 10:05:11 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/21 10:05:13 Post Request successful
+2023/03/21 10:05:13 Response Deserialized successfully
+2023/03/21 10:05:15 Post Request successful
+2023/03/21 10:05:15 Response Deserialized successfully
+2023/03/21 10:05:15 Test Passed
+2023/03/21 10:05:15 ----Test Ended----
+2023/03/21 10:05:15 
+2023/03/21 10:05:15 ----Test Started-- 
+2023/03/21 10:05:15 Running test : Post Request Integration: Cloud to On-Prem Can send different file formats to S3 bucket and download the different format files
+2023/03/21 10:05:16 Post Request successful
+2023/03/21 10:05:16 Response deserialized successfully for filename : Demo.csv
+2023/03/21 10:05:17 Post Request successful
+2023/03/21 10:05:17 Download response deserialized successfully for filename : Demo.csv
+2023/03/21 10:05:19 Post Request successful
+2023/03/21 10:05:19 Response deserialized successfully for filename : Demo.pdf
+2023/03/21 10:05:22 Post Request successful
+2023/03/21 10:05:22 Download response deserialized successfully for filename : Demo.pdf
+2023/03/21 10:05:24 Post Request successful
+2023/03/21 10:05:24 Response deserialized successfully for filename : Hello.pdf
+2023/03/21 10:05:26 Post Request successful
+2023/03/21 10:05:26 Download response deserialized successfully for filename : Hello.pdf
+2023/03/21 10:05:28 Post Request successful
+2023/03/21 10:05:28 Response deserialized successfully for filename : Hello.xlsx
+2023/03/21 10:05:29 Post Request successful
+2023/03/21 10:05:29 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/21 10:05:31 Post Request successful
+2023/03/21 10:05:31 Response deserialized successfully for filename : Test.pdf
+2023/03/21 10:05:34 Post Request successful
+2023/03/21 10:05:34 Download response deserialized successfully for filename : Test.pdf
+2023/03/21 10:05:36 Post Request successful
+2023/03/21 10:05:36 Response deserialized successfully for filename : Testing.docx
+2023/03/21 10:05:38 Post Request successful
+2023/03/21 10:05:38 Download response deserialized successfully for filename : Testing.docx
+2023/03/21 10:05:40 Post Request successful
+2023/03/21 10:05:40 Response deserialized successfully for filename : Testing.pdf
+2023/03/21 10:05:42 Post Request successful
+2023/03/21 10:05:42 Download response deserialized successfully for filename : Testing.pdf
+2023/03/21 10:05:42 Test Passed
+2023/03/21 10:05:42 ----Test Ended----
+2023/03/21 10:05:42 
+2023/03/21 16:22:57 ----Test Started-- 
+2023/03/21 16:22:57 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/21 16:23:00 Post Request successful
+2023/03/21 16:23:00 Response Deserialized successfully
+2023/03/21 16:23:03 Post Request successful
+2023/03/21 16:23:03 Response Deserialized successfully
+2023/03/21 16:23:03 Test Passed
+2023/03/21 16:23:03 ----Test Ended----
+2023/03/21 16:23:03 
+2023/03/21 16:23:03 ----Test Started-- 
+2023/03/21 16:23:03 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/21 16:23:05 Post Request successful
+2023/03/21 16:23:05 Response Deserialized successfully
+2023/03/21 16:23:06 Post Request successful
+2023/03/21 16:23:06 Response Deserialized successfully
+2023/03/21 16:23:06 Test Passed
+2023/03/21 16:23:06 ----Test Ended----
+2023/03/21 16:23:06 
+2023/03/21 16:23:06 ----Test Started-- 
+2023/03/21 16:23:06 Running test : Post Request Integration: Cloud to On-Prem Can send different file formats to S3 bucket and download the different format files
+2023/03/21 16:23:08 Post Request successful
+2023/03/21 16:23:08 Response deserialized successfully for filename : Demo.csv
+2023/03/21 16:23:09 Post Request successful
+2023/03/21 16:23:09 Download response deserialized successfully for filename : Demo.csv
+2023/03/21 16:23:11 Post Request successful
+2023/03/21 16:23:11 Response deserialized successfully for filename : Demo.pdf
+2023/03/21 16:23:14 Post Request successful
+2023/03/21 16:23:14 Download response deserialized successfully for filename : Demo.pdf
+2023/03/21 16:23:16 Post Request successful
+2023/03/21 16:23:16 Response deserialized successfully for filename : Hello.pdf
+2023/03/21 16:23:18 Post Request successful
+2023/03/21 16:23:18 Download response deserialized successfully for filename : Hello.pdf
+2023/03/21 16:23:19 Post Request successful
+2023/03/21 16:23:19 Response deserialized successfully for filename : Hello.xlsx
+2023/03/21 16:23:21 Post Request successful
+2023/03/21 16:23:21 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/21 16:23:23 Post Request successful
+2023/03/21 16:23:23 Response deserialized successfully for filename : Test.pdf
+2023/03/21 16:23:26 Post Request successful
+2023/03/21 16:23:26 Download response deserialized successfully for filename : Test.pdf
+2023/03/21 16:23:28 Post Request successful
+2023/03/21 16:23:28 Response deserialized successfully for filename : Testing.docx
+2023/03/21 16:23:30 Post Request successful
+2023/03/21 16:23:30 Download response deserialized successfully for filename : Testing.docx
+2023/03/21 16:23:33 Post Request successful
+2023/03/21 16:23:33 Response deserialized successfully for filename : Testing.pdf
+2023/03/21 16:23:35 Post Request successful
+2023/03/21 16:23:35 Download response deserialized successfully for filename : Testing.pdf
+2023/03/21 16:23:35 Test Passed
+2023/03/21 16:23:35 ----Test Ended----
+2023/03/21 16:23:35 
+2023/03/21 19:09:09 ----Test Started-- 
+2023/03/21 19:09:09 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/21 19:09:11 Post Request successful
+2023/03/21 19:09:11 Response Deserialized successfully
+2023/03/21 19:09:14 Post Request successful
+2023/03/21 19:09:14 Response Deserialized successfully
+2023/03/21 19:09:14 Test Passed
+2023/03/21 19:09:14 ----Test Ended----
+2023/03/21 19:09:14 
+2023/03/21 19:09:14 ----Test Started-- 
+2023/03/21 19:09:14 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/21 19:09:16 Post Request successful
+2023/03/21 19:09:16 Response Deserialized successfully
+2023/03/21 19:09:17 Post Request successful
+2023/03/21 19:09:17 Response Deserialized successfully
+2023/03/21 19:09:17 Test Passed
+2023/03/21 19:09:17 ----Test Ended----
+2023/03/21 19:09:17 
+2023/03/21 19:09:17 ----Test Started-- 
+2023/03/21 19:09:17 Running test : Post Request Integration: Cloud to On-Prem Can send different file formats to S3 bucket and download the different format files
+2023/03/21 19:09:19 Post Request successful
+2023/03/21 19:09:19 Response deserialized successfully for filename : Demo.csv
+2023/03/21 19:09:20 Post Request successful
+2023/03/21 19:09:20 Download response deserialized successfully for filename : Demo.csv
+2023/03/21 19:09:22 Post Request successful
+2023/03/21 19:09:22 Response deserialized successfully for filename : Demo.pdf
+2023/03/21 19:09:24 Post Request successful
+2023/03/21 19:09:24 Download response deserialized successfully for filename : Demo.pdf
+2023/03/21 19:09:26 Post Request successful
+2023/03/21 19:09:26 Response deserialized successfully for filename : Hello.pdf
+2023/03/21 19:09:29 Post Request successful
+2023/03/21 19:09:29 Download response deserialized successfully for filename : Hello.pdf
+2023/03/21 19:09:30 Post Request successful
+2023/03/21 19:09:30 Response deserialized successfully for filename : Hello.xlsx
+2023/03/21 19:09:32 Post Request successful
+2023/03/21 19:09:32 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/21 19:09:34 Post Request successful
+2023/03/21 19:09:34 Response deserialized successfully for filename : Test.pdf
+2023/03/21 19:09:36 Post Request successful
+2023/03/21 19:09:36 Download response deserialized successfully for filename : Test.pdf
+2023/03/21 19:09:38 Post Request successful
+2023/03/21 19:09:38 Response deserialized successfully for filename : Testing.docx
+2023/03/21 19:09:40 Post Request successful
+2023/03/21 19:09:40 Download response deserialized successfully for filename : Testing.docx
+2023/03/21 19:09:42 Post Request successful
+2023/03/21 19:09:42 Response deserialized successfully for filename : Testing.pdf
+2023/03/21 19:09:45 Post Request successful
+2023/03/21 19:09:45 Download response deserialized successfully for filename : Testing.pdf
+2023/03/21 19:09:45 Test Passed
+2023/03/21 19:09:45 ----Test Ended----
+2023/03/21 19:09:45 
+2023/03/21 20:39:29 ----Test Started-- 
+2023/03/21 20:39:29 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/21 20:39:32 Post Request successful
+2023/03/21 20:39:32 Response Deserialized successfully
+2023/03/21 20:39:35 Post Request successful
+2023/03/21 20:39:35 Response Deserialized successfully
+2023/03/21 20:39:35 Test Passed
+2023/03/21 20:39:35 ----Test Ended----
+2023/03/21 20:39:35 
+2023/03/21 20:39:35 ----Test Started-- 
+2023/03/21 20:39:35 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/21 20:39:37 Post Request successful
+2023/03/21 20:39:37 Response Deserialized successfully
+2023/03/21 20:39:38 Post Request successful
+2023/03/21 20:39:38 Response Deserialized successfully
+2023/03/21 20:39:38 Test Passed
+2023/03/21 20:39:38 ----Test Ended----
+2023/03/21 20:39:38 
+2023/03/21 20:39:38 ----Test Started-- 
+2023/03/21 20:39:38 Running test : Post Request Integration: Cloud to On-Prem Can send different file formats to S3 bucket and download the different format files
+2023/03/21 20:39:39 Post Request successful
+2023/03/21 20:39:39 Response deserialized successfully for filename : Demo.csv
+2023/03/21 20:39:41 Post Request successful
+2023/03/21 20:39:41 Download response deserialized successfully for filename : Demo.csv
+2023/03/21 20:39:43 Post Request successful
+2023/03/21 20:39:43 Response deserialized successfully for filename : Demo.pdf
+2023/03/21 20:39:45 Post Request successful
+2023/03/21 20:39:45 Download response deserialized successfully for filename : Demo.pdf
+2023/03/21 20:39:49 Post Request successful
+2023/03/21 20:39:49 Response deserialized successfully for filename : Hello.pdf
+2023/03/21 20:39:51 Post Request successful
+2023/03/21 20:39:51 Download response deserialized successfully for filename : Hello.pdf
+2023/03/21 20:39:52 Post Request successful
+2023/03/21 20:39:52 Response deserialized successfully for filename : Hello.xlsx
+2023/03/21 20:39:54 Post Request successful
+2023/03/21 20:39:54 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/21 20:39:56 Post Request successful
+2023/03/21 20:39:56 Response deserialized successfully for filename : Test.pdf
+2023/03/21 20:39:58 Post Request successful
+2023/03/21 20:39:58 Download response deserialized successfully for filename : Test.pdf
+2023/03/21 20:40:00 Post Request successful
+2023/03/21 20:40:00 Response deserialized successfully for filename : Testing.docx
+2023/03/21 20:40:02 Post Request successful
+2023/03/21 20:40:02 Download response deserialized successfully for filename : Testing.docx
+2023/03/21 20:40:05 Post Request successful
+2023/03/21 20:40:05 Response deserialized successfully for filename : Testing.pdf
+2023/03/21 20:40:07 Post Request successful
+2023/03/21 20:40:07 Download response deserialized successfully for filename : Testing.pdf
+2023/03/21 20:40:07 Test Passed
+2023/03/21 20:40:07 ----Test Ended----
+2023/03/21 20:40:07 
+2023/03/23 16:27:16 ----Test Started-- 
+2023/03/23 16:27:16 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/23 16:27:18 Post Request successful
+2023/03/23 16:27:18 Response Deserialized successfully
+2023/03/23 16:27:21 Post Request successful
+2023/03/23 16:27:21 Response Deserialized successfully
+2023/03/23 16:27:21 Test Passed
+2023/03/23 16:27:21 ----Test Ended----
+2023/03/23 16:27:21 
+2023/03/23 16:27:21 ----Test Started-- 
+2023/03/23 16:27:21 Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive Access Denied on passing incorrect file name
+2023/03/23 16:27:24 Post Request successful
+2023/03/23 16:27:24 Response Deserialized successfully
+2023/03/23 16:27:25 Post Request successful
+2023/03/23 16:27:25 Response Deserialized successfully
+2023/03/23 16:27:25 Test Passed
+2023/03/23 16:27:25 ----Test Ended----
+2023/03/23 16:27:25 
+2023/03/23 16:27:25 ----Test Started-- 
+2023/03/23 16:27:25 Running test : Post Request Integration: Cloud to On-Prem Can send different file formats to S3 bucket and download the different format files
+2023/03/23 16:27:26 Post Request successful
+2023/03/23 16:27:26 Response deserialized successfully for filename : Demo.csv
+2023/03/23 16:27:28 Post Request successful
+2023/03/23 16:27:28 Download response deserialized successfully for filename : Demo.csv
+2023/03/23 16:27:30 Post Request successful
+2023/03/23 16:27:30 Response deserialized successfully for filename : Demo.pdf
+2023/03/23 16:27:33 Post Request successful
+2023/03/23 16:27:33 Download response deserialized successfully for filename : Demo.pdf
+2023/03/23 16:27:35 Post Request successful
+2023/03/23 16:27:35 Response deserialized successfully for filename : Hello.pdf
+2023/03/23 16:27:38 Post Request successful
+2023/03/23 16:27:38 Download response deserialized successfully for filename : Hello.pdf
+2023/03/23 16:27:40 Post Request successful
+2023/03/23 16:27:40 Response deserialized successfully for filename : Hello.xlsx
+2023/03/23 16:27:41 Post Request successful
+2023/03/23 16:27:41 Download response deserialized successfully for filename : Hello.xlsx
+2023/03/23 16:27:44 Post Request successful
+2023/03/23 16:27:44 Response deserialized successfully for filename : Test.pdf
+2023/03/23 16:27:46 Post Request successful
+2023/03/23 16:27:46 Download response deserialized successfully for filename : Test.pdf
+2023/03/23 16:27:48 Post Request successful
+2023/03/23 16:27:48 Response deserialized successfully for filename : Testing.docx
+2023/03/23 16:27:50 Post Request successful
+2023/03/23 16:27:50 Download response deserialized successfully for filename : Testing.docx
+2023/03/23 16:27:52 Post Request successful
+2023/03/23 16:27:52 Response deserialized successfully for filename : Testing.pdf
+2023/03/23 16:27:54 Post Request successful
+2023/03/23 16:27:54 Download response deserialized successfully for filename : Testing.pdf
+2023/03/23 16:27:54 Test Passed
+2023/03/23 16:27:54 ----Test Ended----
+2023/03/23 16:27:54 
+2023/03/28 18:00:46.183683 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 18:00:46.184217 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 18:00:59.450095 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:00:59.450095 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:01:17.028442 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:01:19.329038 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:72: Response Deserialized successfully
+2023/03/28 18:07:42.800088 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 18:07:42.800615 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 18:07:53.647627 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:07:53.647627 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:08:05.453455 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:08:05.460233 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:298: Response Deserialized successfully
+2023/03/28 18:12:31.876236 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 18:12:31.876755 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 18:12:41.544274 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:12:41.548820 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:12:54.975446 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:12:54.975446 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:298: Response Deserialized successfully
+2023/03/28 18:14:22.351006 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 18:14:22.351006 c:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 18:14:33.014479 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:14:33.015189 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:15:08.586409 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:15:28.309868 c:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:298: Response Deserialized successfully
+2023/03/28 18:25:05.252873 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 18:25:05.254478 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 18:25:07.552545 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:25:07.565118 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:25:10.750980 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:25:10.756113 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:298: Response Deserialized successfully
+2023/03/28 18:25:10.756113 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:29: Test Passed
+2023/03/28 18:25:10.756113 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:35: ----Test Ended----
+2023/03/28 18:25:10.756113 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:36: 
+2023/03/28 18:27:11.437515 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 18:27:11.438428 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 18:27:13.489363 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:27:13.490360 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:27:16.010527 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:27:16.013879 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:298: Response Deserialized successfully
+2023/03/28 18:27:16.014389 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:29: Test Passed
+2023/03/28 18:27:16.014420 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:35: ----Test Ended----
+2023/03/28 18:27:16.014420 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:36: 
+2023/03/28 18:30:10.823150 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 18:30:10.824187 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 18:30:14.066359 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:30:14.070456 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 18:30:16.695444 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 18:30:16.697248 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:298: Response Deserialized successfully
+2023/03/28 18:30:16.698944 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:29: Test Passed
+2023/03/28 18:30:16.698944 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:35: ----Test Ended----
+2023/03/28 18:30:16.698944 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:36: 
+2023/03/28 19:51:06.150542 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 19:51:06.151616 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 19:51:07.875737 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:51:07.875821 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:51:10.443010 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:51:10.444870 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:298: Response Deserialized successfully
+2023/03/28 19:51:10.444870 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:29: Test Passed
+2023/03/28 19:51:10.444870 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:35: ----Test Ended----
+2023/03/28 19:51:10.445397 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:36: 
+2023/03/28 19:58:33.174116 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 19:58:33.174645 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 19:58:34.903692 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:58:34.904199 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 19:58:37.426953 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 19:58:37.428560 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:298: Response Deserialized successfully
+2023/03/28 19:58:37.428560 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:29: Test Passed
+2023/03/28 19:58:37.428560 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:35: ----Test Ended----
+2023/03/28 19:58:37.428560 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:36: 
+2023/03/28 20:03:22.743152 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 20:03:22.744213 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 20:03:24.919001 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:03:24.919001 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:03:24.921178 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:31: Test Failed
+2023/03/28 20:03:24.921178 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:32: Status code not equal to 200
+Expected
+    <int>: 200
+to equal
+    <int>: 202
+2023/03/28 20:03:24.921178 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:35: ----Test Ended----
+2023/03/28 20:03:24.921356 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:36: 
+2023/03/28 20:06:40.492781 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 20:06:40.493316 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 20:06:42.707917 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:06:42.707917 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:06:42.707917 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:31: Test Failed
+2023/03/28 20:06:42.707917 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:32: Status code not equal to 200
+Expected
+    <int>: 200
+to equal
+    <int>: 202
+2023/03/28 20:06:42.707917 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:35: ----Test Ended----
+2023/03/28 20:06:42.707917 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:36: 
+2023/03/28 20:16:34.015548 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:22: ----Test Started-- 
+2023/03/28 20:16:34.016701 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:23: Running test : Post Request Integration: Cloud to On-Prem Can send a file to S3 bucket using load balancer API and receive the same file
+2023/03/28 20:16:36.028717 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:16:36.036250 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:282: Response Deserialized successfully
+2023/03/28 20:16:39.060186 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:109: Post Request successful
+2023/03/28 20:16:39.061085 C:/Users/819834/go/src/bd-connect-api/apitesting/utilities/common.go:298: Response Deserialized successfully
+2023/03/28 20:16:39.062906 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:31: Test Failed
+2023/03/28 20:16:39.062906 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:32: Status code not equal to 200
+Expected
+    <int>: 200
+to equal
+    <int>: 202
+2023/03/28 20:16:39.062906 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:35: ----Test Ended----
+2023/03/28 20:16:39.062906 C:/Users/819834/go/src/bd-connect-api/apitesting/tests/integration/cloudonprem_integ_test.go:36: 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuites tests="11" disabled="7" errors="0" failures="1" time="14.4342356">
+      <testsuite name="Components Suite" package="C:\Users\819834\go\src\bd-connect-api\apitesting\tests\components" tests="11" disabled="7" skipped="0" errors="0" failures="1" time="14.4342356" timestamp="2023-03-28T20:16:19">
+          <properties>
+              <property name="SuiteSucceeded" value="false"></property>
+              <property name="SuiteHasProgrammaticFocus" value="false"></property>
+              <property name="SpecialSuiteFailureReason" value=""></property>
+              <property name="SuiteLabels" value="[]"></property>
+              <property name="RandomSeed" value="1680014772"></property>
+              <property name="RandomizeAllSpecs" value="false"></property>
+              <property name="LabelFilter" value="Integration,Smoke"></property>
+              <property name="FocusStrings" value=""></property>
+              <property name="SkipStrings" value=""></property>
+              <property name="FocusFiles" value=""></property>
+              <property name="SkipFiles" value=""></property>
+              <property name="FailOnPending" value="false"></property>
+              <property name="FailFast" value="false"></property>
+              <property name="FlakeAttempts" value="0"></property>
+              <property name="DryRun" value="false"></property>
+              <property name="ParallelTotal" value="1"></property>
+              <property name="OutputInterceptorMode" value=""></property>
+          </properties>
+          <testcase name="[BeforeSuite]" classname="Components Suite" status="passed" time="0.0015888">
+              <system-err>&gt; Enter [BeforeSuite] TOP-LEVEL - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/components_suite_test.go:21 @ 03/28/23 20:16:19.06&#xA;&lt; Exit [BeforeSuite] TOP-LEVEL - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/components_suite_test.go:21 @ 03/28/23 20:16:19.062 (2ms)&#xA;</system-err>
+          </testcase>
+          <testcase name="[It] DB  Connect DB and run select Query [Smoke]" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Get Request Get Request - Status 200 [Regression]" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] EC2StartStopFunctionhandler aa [Smoke]" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Add order with and without authentication Post Request - Create a New order with authentication 201 [Smoke]" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Add order with and without authentication Post Request - Pass wrong authentication token 401 [Smoke]" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Post Request - Cloud to On-Prem Can send a file to S3 bucket using load balancer API [Smoke]" classname="Components Suite" status="failed" time="2.2690566">
+              <failure message="Status code does not match&#xA;Expected&#xA;    &lt;int&gt;: 200&#xA;to equal&#xA;    &lt;int&gt;: 208" type="failed">[FAILED] Status code does not match&#xA;Expected&#xA;    &lt;int&gt;: 200&#xA;to equal&#xA;    &lt;int&gt;: 208&#xA;In [It] at: C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:56 @ 03/28/23 20:16:21.333&#xA;</failure>
+              <system-err>&gt; Enter [BeforeEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:19 @ 03/28/23 20:16:19.063&#xA;&lt; Exit [BeforeEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:19 @ 03/28/23 20:16:19.065 (2ms)&#xA;&gt; Enter [It] Can send a file to S3 bucket using load balancer API - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:40 @ 03/28/23 20:16:19.065&#xA;[FAILED] Status code does not match&#xA;Expected&#xA;    &lt;int&gt;: 200&#xA;to equal&#xA;    &lt;int&gt;: 208&#xA;In [It] at: C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:56 @ 03/28/23 20:16:21.333&#xA;&lt; Exit [It] Can send a file to S3 bucket using load balancer API - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:40 @ 03/28/23 20:16:21.333 (2.267s)&#xA;&gt; Enter [AfterEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:24 @ 03/28/23 20:16:21.333&#xA;&lt; Exit [AfterEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:24 @ 03/28/23 20:16:21.333 (0s)&#xA;</system-err>
+          </testcase>
+          <testcase name="[It] Post Request - Cloud to On-Prem Can send multiple pdf files to S3 bucket using load balancer API  [Smoke]" classname="Components Suite" status="passed" time="12.1211083">
+              <system-err>&gt; Enter [BeforeEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:19 @ 03/28/23 20:16:21.365&#xA;&lt; Exit [BeforeEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:19 @ 03/28/23 20:16:21.365 (0s)&#xA;&gt; Enter [It] Can send multiple pdf files to S3 bucket using load balancer API  - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:62 @ 03/28/23 20:16:21.365&#xA;&lt; Exit [It] Can send multiple pdf files to S3 bucket using load balancer API  - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:62 @ 03/28/23 20:16:33.486 (12.121s)&#xA;&gt; Enter [AfterEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:24 @ 03/28/23 20:16:33.486&#xA;&lt; Exit [AfterEach] Post Request - Cloud to On-Prem - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/cloudonprem_test.go:24 @ 03/28/23 20:16:33.486 (0s)&#xA;</system-err>
+          </testcase>
+          <testcase name="[It] Post Request - Cloud to On-Prem Can send files to different S3 buckets [Smoke]" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[It] Post Request Post Request - Register a new client 201" classname="Components Suite" status="pending" time="0">
+              <skipped message="pending"></skipped>
+          </testcase>
+          <testcase name="[AfterSuite]" classname="Components Suite" status="passed" time="0">
+              <system-err>&gt; Enter [AfterSuite] TOP-LEVEL - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/components_suite_test.go:28 @ 03/28/23 20:16:33.49&#xA;&lt; Exit [AfterSuite] TOP-LEVEL - C:/Users/819834/go/src/bd-connect-api/apitesting/tests/components/components_suite_test.go:28 @ 03/28/23 20:16:33.49 (0s)&#xA;</system-err>
+          </testcase>
+      </testsuite>
+  </testsuites>
